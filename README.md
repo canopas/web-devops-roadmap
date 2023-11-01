@@ -1,6 +1,6 @@
 # Web DevOps Roadmap
 
-This repository contains initial DevOps roadmap for all the web developers. Anyone can start this training with their existing learning projects. The approximate time for complete these practicals is 10 days.
+This repository contains a basic DevOps roadmap for all web developers. Anyone can start this training with their existing learning projects. The approximate duration to complete this roadmap is 10 days, it can vary based on experience though.
 
 # Guidelines
 - Before starting any practice, it's essential to conduct research and learn the necessary concepts.
@@ -8,14 +8,14 @@ This repository contains initial DevOps roadmap for all the web developers. Anyo
 - Create a GitHub/GitLab repository for each Practical if one doesn't already exist.
 
 - Learn Basic DevOps Principles:
-  - Learn how to use Version Control effectively for your codebase as Git is Fundamental.
-  - Know how to write unit tests.
-  - Start by understanding the core DevOps concepts like continuous integration, continuous deployment, and automation.
-  - Learn some basic scripts to get a basic understanding of scripting language.
-  - Be aware of basic security practices like exposing env vars, Inbound/Outbound security rules, etc…
+  - How to use Version Control effectively for your codebase as Git is Fundamental.
+  - How to write unit tests.
+  - Understand the core DevOps concepts like continuous integration, continuous deployment, and automation.
+  - Basic scripts to get an overall understanding of scripting language.
+  - Basic security practices like exposing env vars, Inbound/Outbound security rules, etc…
 
-- Note for AWS servies:
-  - Starting by manually deploying application through the AWS console can provide a solid foundational understanding of the service. 
+- Note for Cloud platforms like AWS/Gcloud/Azure:
+  - Start deploying an application manually through the AWS/Gcloud/Azure console. It will provide a solid foundational understanding of the service.
   - Once you've gained proficiency in this approach, transitioning to CI/CD becomes a easy process.
 
 - Some Basic Guidelines for CI/CD:
@@ -75,7 +75,7 @@ Learn following before starting practice.
 
 - [Practical 8 - Deploy Nuxt static website on AWS S3 with Cloudfront](https://github.com/canopas/web-devops-roadmap#practical-8---deploy-nuxt-static-website-on-aws-s3-with-cloudfront)
 
-- [Practical 9 - Deploy golang api on aws lambda with route53 hosting using CloudFormation stack](https://github.com/canopas/web-devops-roadmap#practical-9---deploy-golang-api-on-aws-lambda-with-route53-hosting-using-cloudformation-stack)
+- [Practical 9 - Deploy golang API on AWS Lambda with Route53 hosting using CloudFormation stack](https://github.com/canopas/web-devops-roadmap#practical-9---deploy-golang-api-on-aws-lambda-with-route53-hosting-using-cloudformation-stack)
 
 ---
 
@@ -232,9 +232,9 @@ Learn following before starting practice.
 
 - Write GitHub CI/CD to Generate a static website and deploy it on AWS S3
 
-## API deployment on AWS Lambda and API gateway
+## API deployment on AWS Lambda and API Gateway
 
-### Practical 9 - Deploy golang api on aws lambda with route53 hosting using CloudFormation stack
+### Practical 9 - Deploy golang API on AWS Lambda with Route53 hosting using CloudFormation stack
 
 **Expected -** API should be accessible from Route53 DNS
 - Set up Golang API project using Gin if one doesn't already exist. ([Practical 22](https://github.com/canopas/web-developer-roadmap-2023#practical-22))
@@ -243,6 +243,6 @@ Learn following before starting practice.
 - Write GitHub CI/CD script for deploying cloudformation stack which includes,
   - Define IAM's role and policies to provide required access
   - Create AWS Lambda function for Golang
-  - Create an API gateway that can access the above lambda function
+  - Create an API Gateway that can access the above Lambda function
   - Create Custom domain and API mapping
-  - Configure Route53 DNS for API gateway proxy
+  - Configure Route53 DNS for API Gateway proxy
