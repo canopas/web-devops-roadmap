@@ -20,7 +20,7 @@ This repository contains a basic DevOps roadmap for all web developers. Anyone c
 
 - Note for Cloud platforms like AWS/Gcloud/Azure:
   - Start deploying an application manually through the AWS/Gcloud/Azure console. It will provide a solid foundational understanding of the service.
-  - Once you've gained proficiency in this approach, transitioning to CI/CD becomes a easy process.
+  - Once you've gained proficiency in this approach, transitioning to CI/CD becomes an easy process.
 
 - Some Basic Guidelines for CI/CD:
   - Understand the CI/CD concepts and their significance with pipeline usage.
@@ -35,7 +35,7 @@ This repository contains a basic DevOps roadmap for all web developers. Anyone c
 
 # Prerequisites
 
-Learn following before starting practice.
+Learn the following before starting practice.
 
 - Linux commands for DevOps
     - Install dependencies
@@ -65,7 +65,7 @@ Learn following before starting practice.
 
 - [Practical 1 - Linting javascript code with eslint](https://github.com/canopas/web-devops-roadmap#practical-1---linting-javascript-code-with-eslint)
 
-- [Practical 2 - Linting PHP code and add pre-commit hook](https://github.com/canopas/web-devops-roadmap#practical-2-linting-php-code-and-addpre-commit-hook)
+- [Practical 2 - Linting PHP code and adding  pre-commit hook](https://github.com/canopas/web-devops-roadmap#practical-2-linting-php-code-and-adding-pre-commit-hook)
 
 - [Practical 3 - Linting Golang code](https://github.com/canopas/web-devops-roadmap#practical-3---linting-golang-code)
 
@@ -87,7 +87,7 @@ Learn following before starting practice.
 
 ### Practical 1 - Linting javascript code with eslint
 
-**Expected -** Configure GitLab workflow for Linting and Formatting, that should be passed without errors.
+**Expected -** Configure GitLab workflow for Linting and Formatting, which should be passed without errors.
 
 - Set up the Vue.js project with typescript and create the simple component with tailwind css.
   
@@ -108,9 +108,9 @@ Learn following before starting practice.
   - Configure the script to run ESlint as part of the CI/CD pipeline.
   - Ensure that the linting process runs on each commit.
 
-### Practical 2 - Linting PHP code and add pre-commit hook
+### Practical 2 - Linting PHP code and adding  pre-commit hook
 
-**Expected -** Configure GitLab workflow for Linting and Formatting, that should be passed without errors.
+**Expected -** Configure GitLab workflow for Linting and Formatting, which should be passed without errors.
 
 - Set up a PHP e-commerce project and learn PHP linters.
 
@@ -135,7 +135,7 @@ Learn following before starting practice.
 
 ### Practical 3 - Linting Golang code
 
-**Expected -** Configure GitHub workflow for Linting and Formatting, that should be passed without errors.
+**Expected -** Configure GitHub workflow for Linting and Formatting, which should be passed without errors.
 
 - Set up Golang API project and learn Golang linters.
   
@@ -160,7 +160,7 @@ Learn following before starting practice.
 
 ### Practical 4 - Unit test check in golang
 
-**Expected -** Configure GitHub workflow for Linting and Formatting, that should be passed without errors.
+**Expected -** Configure GitHub workflow for Linting and Formatting, which should be passed without errors.
 
 - Write unit tests from [Practical 22](https://github.com/canopas/web-developer-roadmap-2023#practical-22) if not already written.
 
@@ -195,8 +195,8 @@ Learn following before starting practice.
 
 **Expected -** Admin panel successfully run on `<ec2-ip-address>:<docker-container-port>`.
 
-- Perform following steps on AWS console
-  - Create EC2 instance with Security rules
+- Perform the following steps on the AWS console
+  - Create an EC2 instance with Security rules
   - Install docker and enable docker swarm on the EC2 instance
 
 - Create a docker-compose file for the above docker image
@@ -219,7 +219,7 @@ Learn following before starting practice.
 - Write CI/CD script for running nginx container on EC2 instance
 
 - Cloudflare configuration
-  - Create Cloudflare account if not already created 
+  - Create a Cloudflare account if not already created 
   - Add DNS(i.e - admin.example.com) on Cloudflare and proxy it to NGINX
 
 ## Static site deployment
