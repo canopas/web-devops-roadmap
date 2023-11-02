@@ -204,6 +204,7 @@ Learn the following before starting practice.
 - Perform the following steps on the AWS console
   - Create an EC2 instance with Security rules
   - Install docker and enable docker swarm on the EC2 instance
+  - Monitor logs on AWS Cloudwatch
 
 - Create a docker-compose file for the above docker image
 
