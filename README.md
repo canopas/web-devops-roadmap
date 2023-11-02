@@ -1,4 +1,6 @@
-# Web DevOps Roadmap
+<h1 align="center">Web DevOps Roadmap</h1>
+
+![web devops roadmap -- canopas](https://github.com/canopas/web-devops-roadmap/blob/main/images/title_image.png)
 
 This repository contains a basic DevOps roadmap for all web developers. Anyone can start this training with their existing learning projects. The approximate duration to complete this roadmap is 10 days, it can vary based on experience though.
 
@@ -61,7 +63,7 @@ Learn following before starting practice.
 
 - [Practical 1 - Linting javascript code with eslint](https://github.com/canopas/web-devops-roadmap#practical-1---linting-javascript-code-with-eslint)
 
-- [Practical 2 - Linting PHP code and add pre-commit hook](https://github.com/canopas/web-developer-roadmap#practical-2-linting-php-code-and-addpre-commit-hook)
+- [Practical 2 - Linting PHP code and add pre-commit hook](https://github.com/canopas/web-devops-roadmap#practical-2-linting-php-code-and-addpre-commit-hook)
 
 - [Practical 3 - Linting Golang code](https://github.com/canopas/web-devops-roadmap#practical-3---linting-golang-code)
 
