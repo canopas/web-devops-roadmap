@@ -166,7 +166,7 @@ Learn the following before starting practice.
 
 ### Practical 4 - Unit test check in golang
 
-**Expected -** Configure GitHub workflow for Linting and Formatting, which should be passed without errors.
+**Expected -** Configure GitHub workflow for running unit tests, which should be passed without errors.
 
 - Write unit tests from [Practical 22](https://github.com/canopas/web-developer-roadmap-2023#practical-22) if not already written.
 
@@ -189,12 +189,12 @@ Learn the following before starting practice.
 
 - Set up [VueJs- admin panel](https://github.com/canopas/web-developer-roadmap-2023#practical-18) project if one doesn't already exist
 
-- Write GitLab CI script to run docker build
+- Write GitLab CI script to run the docker build
   - Create a repository on GitLab if one doesn't already exist
   - Write a docker file which includes,
     - Install dependencies
     - Build and run project
-  - 
+      
   - Write a CI/CD script for Building a docker image and push it on the GitLab Registry.
 
 ### Practical 6 - AWS EC2 Deployment
