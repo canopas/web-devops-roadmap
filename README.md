@@ -63,23 +63,29 @@ Learn the following before starting practice.
 
 # Table of contents
 
-- [Practical 1 - Linting javascript code with eslint](https://github.com/canopas/web-devops-roadmap#practical-1---linting-javascript-code-with-eslint)
+- [Ensure code quality](https://github.com/canopas/web-devops-roadmap#ensure-code-quality)
 
-- [Practical 2 - Linting PHP code and adding  pre-commit hook](https://github.com/canopas/web-devops-roadmap#practical-2-linting-php-code-and-adding-pre-commit-hook)
+    - [Practical 1 - Linting javascript code with eslint](https://github.com/canopas/web-devops-roadmap#practical-1---linting-javascript-code-with-eslint)
+    
+    - [Practical 2 - Linting PHP code and adding  pre-commit hook](https://github.com/canopas/web-devops-roadmap#practical-2-linting-php-code-and-adding-pre-commit-hook)
+    
+    - [Practical 3 - Linting Golang code](https://github.com/canopas/web-devops-roadmap#practical-3---linting-golang-code)
+ 
+- [Automate Testing](https://github.com/canopas/web-devops-roadmap#automate-testing)
 
-- [Practical 3 - Linting Golang code](https://github.com/canopas/web-devops-roadmap#practical-3---linting-golang-code)
+    - [Practical 4 - Unit test check in golang](https://github.com/canopas/web-devops-roadmap#practical-4---unit-test-check-in-golang)
+ 
+- [Deployment](https://github.com/canopas/web-devops-roadmap#deployment)
 
-- [Practical 4 - Unit test check in golang](https://github.com/canopas/web-devops-roadmap#practical-4---unit-test-check-in-golang)
-
-- [Practical 5 - Build a Docker image](https://github.com/canopas/web-devops-roadmap#practical-5---build-a-docker-image)
-
-- [Practical 6 - AWS EC2 Deployment](https://github.com/canopas/web-devops-roadmap#practical-6---aws-ec2-deployment)
-
-- [Practical 7 - Configure Proxy and DNS Hosting](https://github.com/canopas/web-devops-roadmap#practical-7---configure-proxy-and-dns-hosting)
-
-- [Practical 8 - Deploy Nuxt static website on AWS S3 with Cloudfront](https://github.com/canopas/web-devops-roadmap#practical-8---deploy-nuxt-static-website-on-aws-s3-with-cloudfront)
-
-- [Practical 9 - Deploy golang API on AWS Lambda with Route53 hosting using CloudFormation stack](https://github.com/canopas/web-devops-roadmap#practical-9---deploy-golang-api-on-aws-lambda-with-route53-hosting-using-cloudformation-stack)
+    - [Practical 5 - Build a Docker image](https://github.com/canopas/web-devops-roadmap#practical-5---build-a-docker-image)
+    
+    - [Practical 6 - AWS EC2 Deployment](https://github.com/canopas/web-devops-roadmap#practical-6---aws-ec2-deployment)
+    
+    - [Practical 7 - Configure Proxy and DNS Hosting](https://github.com/canopas/web-devops-roadmap#practical-7---configure-proxy-and-dns-hosting)
+    
+    - [Practical 8 - Deploy Nuxt static website on AWS S3 with Cloudfront](https://github.com/canopas/web-devops-roadmap#practical-8---deploy-nuxt-static-website-on-aws-s3-with-cloudfront)
+    
+    - [Practical 9 - Deploy Golang API on AWS Lambda with Route53 hosting using CloudFormation stack](https://github.com/canopas/web-devops-roadmap#practical-9---deploy-golang-api-on-aws-lambda-with-route53-hosting-using-cloudformation-stack)
 
 ---
 
@@ -238,7 +244,7 @@ Learn the following before starting practice.
 
 ## API deployment on AWS Lambda and API Gateway
 
-### Practical 9 - Deploy golang API on AWS Lambda with Route53 hosting using CloudFormation stack
+### Practical 9 - Deploy Golang API on AWS Lambda with Route53 hosting using CloudFormation stack
 
 **Expected -** API should be accessible from Route53 DNS
 - Set up Golang API project using Gin if one doesn't already exist. ([Practical 22](https://github.com/canopas/web-developer-roadmap-2023#practical-22))
