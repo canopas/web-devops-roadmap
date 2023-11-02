@@ -1,6 +1,8 @@
 <h1 align="center">Web DevOps Roadmap</h1>
 
-![web devops roadmap -- canopas](https://github.com/canopas/web-devops-roadmap/blob/main/images/title_image.png)
+<p align="center">
+    <img src="https://github.com/canopas/web-devops-roadmap/blob/main/images/title_image.png">
+</p>
 
 This repository contains a basic DevOps roadmap for all web developers. Anyone can start this training with their existing learning projects. The approximate duration to complete this roadmap is 10 days, it can vary based on experience though.
 
